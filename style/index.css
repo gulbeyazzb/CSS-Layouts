@@ -1,1 +1,97 @@
-/* CSS stillerinizi buraya girin */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-items a {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+  border: 1px solid black;
+  background-color: rgb(232, 252, 255);
+  border-radius: 0.5rem;
+  margin: 8px;
+}
+
+.header-section {
+  background-color: rgb(2, 86, 101);
+  height: 110px;
+  padding: 0.7rem;
+  color: white;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.btn-projects {
+  color: black;
+  background-color: rgb(232, 252, 255);
+  border: 1px solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.projects-container p {
+  display: inline-block;
+}
+
+.flex-items {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-content: space-between;
+  margin: 0 10px;
+}
+
+.footer-section {
+  background-color: rgb(2, 86, 101);
+  height: 110px;
+  padding: 0.7rem;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-nav-items a i {
+  color: white;
+  font-size: 30px;
+  display: flex;
+}
