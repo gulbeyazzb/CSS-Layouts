@@ -45,7 +45,7 @@ html {
   padding: 2rem;
 }
 
-.btn-projects {
+.btn {
   color: black;
   background-color: rgb(232, 252, 255);
   border: 1px solid black;
@@ -77,21 +77,20 @@ html {
 
 .footer-section {
   background-color: rgb(2, 86, 101);
-  height: 110px;
+  height: 160px;
   padding: 0.7rem;
   color: white;
-  display: flex;
-  align-items: flex-start;
+  text-align: center;
 }
 
 .footer-nav-items {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
 }
 
 .footer-nav-items a i {
   color: white;
   font-size: 30px;
   display: flex;
+  margin-top: 20px;
 }
