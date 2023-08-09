@@ -58,20 +58,17 @@ html {
 
 .projects-container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 2rem 0;
+  margin: 40px 0;
+}
+
+.flex-items {
+  width: 15vw;
 }
 
 .projects-container p {
   display: inline-block;
-}
-
-.flex-items {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  align-content: space-between;
-  margin: 0 10px;
 }
 
 .btn-git {
