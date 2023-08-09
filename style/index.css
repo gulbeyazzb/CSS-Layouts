@@ -102,3 +102,8 @@ html {
   display: flex;
   margin-top: 20px;
 }
+
+.nav-items .active {
+  background-color: black;
+  color: rgb(232, 252, 255);
+}
