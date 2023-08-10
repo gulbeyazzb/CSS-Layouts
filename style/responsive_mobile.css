@@ -3,12 +3,18 @@
     width: 100%;
   }
 
+  .nav-items a {
+    padding: 0.6rem;
+  }
+
   .flex-container {
     flex-direction: column;
-    font-size: 100%;
-    width: 94%;
-    height: min-content;
     align-items: stretch;
+    font-size: 100%;
+    width: 70%;
+    margin: 0 auto;
+    height: min-content;
+    background: none;
   }
 
   .main-section {
@@ -20,7 +26,7 @@
   }
 
   img {
-    width: 90%;
+    width: 70%;
   }
 
   .about {
@@ -34,13 +40,16 @@
   h2 {
     margin: 0.5rem auto;
     text-align: center;
+    width: 80%;
   }
 
   .btn {
     padding: 10px 25px;
-    font-size: 100%;
-    width: 80%;
     margin: 0 auto;
+  }
+
+  .btn-git {
+    width: 70%;
   }
 
   .flex-items {
@@ -52,6 +61,7 @@
 
   .flex-items p {
     margin-left: 0.9rem;
+    width: 70%;
   }
 
   .projects-container {
@@ -59,9 +69,6 @@
     margin: 0;
   }
 
-  .projects-container img {
-    width: 90%;
-  }
   .footer-section {
     margin-top: 1rem;
   }

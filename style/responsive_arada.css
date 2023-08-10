@@ -1,4 +1,4 @@
-@media (min-width: 500px) and (max-width: 800px) {
+@media (min-width: 500px) and (max-width: 646px) {
   .container {
     width: 97%;
   }
@@ -14,7 +14,6 @@
 
   .about {
     padding: 1rem;
-    width: 130%;
   }
 
   .btn {
@@ -37,6 +36,9 @@
     margin-left: 0.9rem;
   }
 
+  .projects-container img {
+    width: 100%;
+  }
   .footer-section {
     margin-top: 1rem;
   }
