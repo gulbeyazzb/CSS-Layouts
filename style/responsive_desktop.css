@@ -1,0 +1,35 @@
+@media (min-width: 801px) {
+  .container {
+    width: 90%;
+  }
+
+  .flex-container {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(232, 252, 255);
+    border-radius: 0.5rem;
+    margin: 8px;
+  }
+
+  .header-section {
+    background-color: rgb(2, 86, 101);
+    padding: 0.7rem;
+    color: white;
+  }
+
+  .flex-items {
+    width: 30%;
+    margin: 1rem 0;
+  }
+
+  .projects-container {
+    margin: 0;
+  }
+}
